@@ -15,7 +15,7 @@ import { AppComponent } from "./app.component";
     imports:[
         BrowserModule,
         HttpClientModule,
-        RouterModule,forRoot([]),
+        RouterModule.forRoot([]),
     ],
     providers: [], //Aquí podemos declarar servicios
     bootstrap: [AppComponent] //Aquí indicamos que AppComponent es el componente raíz del modulo
